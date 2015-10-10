@@ -15,20 +15,20 @@ namespace ConsoleApplication3
                 //use counter to ensure the loop continues.
 
             {
-                int noun;
+               int noun;
                 Random rand = new Random();
                 noun = rand.Next(0, 9);
-                string[] nouns = { "She ", "He ", "It ", "The cat ", "The mongoose ", "The orange ", "The trampoline ", "Musicians ", "Programmers ", "The shake " };
+                string[] nouns = { "Kim Jong Un ", "The queen ", "Dragons ", "The cat ", "The bat ", "The avocado ", "The monk ", "The hedgehogs ", "Demons ", "The dolphins " };
                 //randomize string of nouns.
 
                 int verb;
                 verb = rand.Next(0, 9);
-                string[] verbs = { "ate ", "barbequed ", "chirped ", "collided ", "sang ", "spoke ", "cartwheeled ", "dined ", "watched ", "directed " };
+                string[] verbs = { "ate sushi ", "barbequed ", "chirped ", "swam ", "sang ", "spoke ", "cuddled ", "dined ", "chanted ", "fidgeted " };
                 //randomize string of verbs.
 
                 int phrase;
                 phrase = rand.Next(0, 9);
-                string[] phrases = { "with the monkeys ", "on the porch ", "under the moon ", "after the storm ", "before the prince ", "over the lake ", "in the gazebo ", "between the lines ", "during the festival ", "with them all " };
+                string[] phrases = { "with the badgers ", "in the dark ", "under the moon ", "after the storm ", "before the prince ", "in the Black Sea ", "in the castle ", "as the sun set ", "while hope was fading ", "with the Bulgarians " };
                 //randomize string of phrases.
 
                 string n = nouns[noun];
